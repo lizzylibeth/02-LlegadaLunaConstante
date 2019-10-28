@@ -24,13 +24,10 @@ public class Main {
     public static void main(String[] args) {
 
         //Constante
-            final int ANY_LLEGADA_LUNA = 1969;
+        final int ANY_LLEGADA_LUNA = 1969;
 
-        //1º MANERA
-            System.out.println("- El hombre llegó a la luna en "+ ANY_LLEGADA_LUNA);      
-
-        //2º MANERA
-            System.out.printf("- El hombre llegó a la luna en %d%n", ANY_LLEGADA_LUNA);
+        //Mensaje
+        System.out.printf("El hombre llegó a la luna en..: %d%n", ANY_LLEGADA_LUNA);
 
     }//main
 
